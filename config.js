@@ -8,7 +8,7 @@
 // container
 var config = {};
 
-config.token = "NDg2ODAwNzc5MjE5NDM1NTMw.W4-Gjg.z6tb-lOyRzGBCLQQk6jL0T06p-o";
+config.token = "NDg2ODAwNzc5MjE5NDM1NTMw.W4-Gjg.lDa1t3aTS_nDMHyw6c3sTmDzSBQ";
 
 
 module.exports = config;
