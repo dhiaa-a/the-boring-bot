@@ -16,6 +16,6 @@ client.on('ready', () => console.log('client is ready'));
 
 
 // log in to discord 
-client.login(config.token);
+client.login(process.env.TOKEN || config.token);
 
 
