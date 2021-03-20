@@ -6,7 +6,6 @@
 
 // dependencies
 const Discord = require('discord.js');
-const config = require('./config');
 
 // initiate the client
 const client = new Discord.Client();
@@ -16,4 +15,4 @@ client.on('ready', () => console.log('client is ready'));
 
 
 // log in to discord 
-client.login(process.env.TOKEN || config.token);
+client.login(process.env.TOKEN || require('./config.js').token);
